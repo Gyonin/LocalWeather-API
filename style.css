@@ -1,0 +1,30 @@
+body {
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Dark-textured-pattern-for-backgrounds.jpg");
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px 0px;
+  color: white;
+  font-size: 3em;
+}
+
+.wData {
+  font-size: 2em;
+  padding: 10px 0px;
+  color: white;
+}
+
+#temp {
+  font-weight: bold;
+  cursor: pointer;
+  cursor: hand;
+  display: inline-block;
+}
+
+#weatherIcon {
+  margin-bottom: 50px;
+}
+
+
