@@ -18,8 +18,7 @@ $(function(){
      
       var tempCelsius = ((weatherData.main.temp - 273).toFixed(0) + "&#8451");
       var tempFahren = ((9 / 5 * (weatherData.main.temp - 273) + 32).toFixed(0) + "&#8457");
-      
-      
+        
       $("#location").html(location);
       $("#temp").html(tempCelsius);
       $("#weather").html(weatherData.weather[0].description);
