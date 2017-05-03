@@ -36,7 +36,7 @@ $(function(){
           tempSwap = false;
         }
         
-      $("weatherIcon").src("http://openweathermap.org/img/w/" + weatherData.weather[0].icon +".png")
+      $("#weatherIcon").attr("src","http://openweathermap.org/img/w/" + weatherData.weather[0].icon +".png");
  
       });
 
